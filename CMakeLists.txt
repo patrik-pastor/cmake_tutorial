@@ -13,5 +13,5 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 # have access to all headers
 include_directories(.)
 
-add_executable(cmake_tutorial 
+add_executable(cmake_tutorial
         cmake_tutorial/main.cpp)
